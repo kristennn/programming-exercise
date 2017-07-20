@@ -2,4 +2,17 @@
 
 doc = File.read("wordcount.txt")
 
+arr = doc.split("")
+
+h = {}
+
+arr.each do |i|
+  if h[i] == nil
+    h[i] = 1
+  else
+    h[i] = h[i] + 1
+  end
+end
+
+p h
 # ...
