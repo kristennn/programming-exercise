@@ -2,7 +2,9 @@
 # https://zh.wikipedia.org/wiki/选择排序
 
 def insertion_sort(arr)
-  #...
+  arr.each do |i|
+    
+  end
 end
 
 arr =  [7, 68, 42, 46, 9, 91, 77, 46, 86, 1]
